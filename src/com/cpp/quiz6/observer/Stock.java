@@ -1,7 +1,7 @@
 package com.cpp.quiz6.observer;
 
 public class Stock extends Subject {
-    private String symbol;
+    private final String symbol;
     private double price;
 
     public Stock(String symbol) {
