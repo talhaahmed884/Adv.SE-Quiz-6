@@ -14,10 +14,6 @@ public class Stock extends Subject {
         return symbol;
     }
 
-    public void setSymbol(String symbol) {
-        this.symbol = symbol;
-    }
-
     public double getPrice() {
         return price;
     }
